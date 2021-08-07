@@ -32,14 +32,13 @@ p {
   line-height: 1.5;
 }
 
-@media (max-width: 576px) {
-  h1,
-  h2,
-  h3 {
-    display: none;
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+    line-height: 1.5;
   }
-  .primary-link {
-    display: block;
+  h2 {
+    font-size: 33px;
   }
 }
 
