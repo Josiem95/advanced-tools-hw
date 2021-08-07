@@ -32,6 +32,17 @@ p {
   line-height: 1.5;
 }
 
+@media (max-width: 576px) {
+  h1,
+  h2,
+  h3 {
+    display: none;
+  }
+  .primary-link {
+    display: block;
+  }
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
